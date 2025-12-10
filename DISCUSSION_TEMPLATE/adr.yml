@@ -1,4 +1,5 @@
 title: "[Architectal Decision Record] "
+labels: ["documentation"]
 body:
   - type: markdown
     attributes:
@@ -17,7 +18,6 @@ body:
     attributes:
       label: Context
       description: "What Problem Are you facing?"
-      render: bash
     validations:
       required: true
   - type: textarea
@@ -31,13 +31,13 @@ body:
     id: alternatives
     attributes:
       label: Alternatives
-      description: "Did you any consider any alternatives?
+      description: "Did you any consider any alternatives?"
     validations:
       required: false
   - type: textarea
     id: consequences
     attributes:
-      labels: Consequences
+      label: Consequences
       description: "What limitations may this cause or when will this need to be revisted?"
     validations:
       required: true
