@@ -8,9 +8,10 @@ body:
         2. Decision: The solution you decided to go with to solve the problem
         3. Alternatives: Any other ways you thought you could solve the problem
         4. Consequences: Any issues that may arise in the future due to commiting to this decision
-
         __Note__: Consequences don't have to be a bad thing, its just leaving a clue to your future self of what may happen so you can prepare for it. Example: If we get 1 million more users, this will stop working. That is complete a acceptable 
         risk profile to take when you have a total of 3 users. 
+
+        
   - type: textarea
     id: context
     attributes:
