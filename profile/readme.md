@@ -64,6 +64,7 @@ Expose your catalog to automation without risking unintended writes.
 |-----------|-------------|
 | **Service Atlas Backend** | The primary API service backing the catalog. Built in Go **1.25**, powered by Neo4j. Handles services, dependencies, releases, and technical debt. |
 | **Service Atlas MCP Server** | A read-only MCP server exposing service & team data to external tools and assistants. Ideal for AI-driven exploration and workflow tooling. |
+| **Service Atlas Frontend** | The web view for interacting witht the backend api. Built with nuxt/vue. Provides teams, reports, and service pages. |
 
 ---
 
@@ -81,9 +82,18 @@ Expose your catalog to automation without risking unintended writes.
 - Read-only safe interface  
 - Provides tools like:  
   - `get_all_teams()`  
-  - `get_services_by_team()`  
+  - `get_services_by_team()`
   - `find_service_by_name()`  
-  - `get_teams_by_service()`  
+  - `get_teams_by_service()`
+ 
+### Frontend
+- Typescript
+- Nuxt/Vue
+- Provides pages:
+  - services
+  - service detail
+  - teams
+  - reports
 
 ---
 
